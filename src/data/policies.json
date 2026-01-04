@@ -1,0 +1,230 @@
+{
+  "policies": {
+    "ward-01": [
+      {
+        "problem": "Heavy vehicular congestion in central business district",
+        "policy": "Congestion Pricing Zone",
+        "description": "Implement variable congestion pricing for vehicles entering the central area during peak hours, similar to London's system.",
+        "impact": "Expected 20-30% reduction in vehicle traffic and 15-20% improvement in air quality during peak hours."
+      },
+      {
+        "problem": "Ongoing construction generating dust",
+        "policy": "Green Construction Standards",
+        "description": "Mandate anti-smog guns, covered material transport, and real-time dust monitoring at all construction sites.",
+        "impact": "Potential 40% reduction in construction-related PM emissions."
+      },
+      {
+        "problem": "Limited green cover in commercial area",
+        "policy": "Rooftop Gardens Initiative",
+        "description": "Require new commercial buildings to have 30% rooftop green cover and provide tax incentives for existing buildings.",
+        "impact": "Improved local microclimate and 10-15% reduction in urban heat island effect."
+      }
+    ],
+    "ward-02": [
+      {
+        "problem": "Multiple redevelopment projects causing dust",
+        "policy": "Construction Dust Emergency Protocol",
+        "description": "Halt non-essential construction during severe pollution days and mandate wet excavation methods.",
+        "impact": "25-35% reduction in construction dust during high pollution periods."
+      },
+      {
+        "problem": "Dense traffic due to commercial activities",
+        "policy": "Last-Mile EV Delivery Mandate",
+        "description": "Require all commercial deliveries in the ward to use electric vehicles by 2025.",
+        "impact": "40% reduction in commercial vehicle emissions within the ward."
+      },
+      {
+        "problem": "Open waste burning in unauthorized dumps",
+        "policy": "Zero-Burn Ward Initiative",
+        "description": "Deploy round-the-clock monitoring, impose heavy fines, and establish material recovery facilities.",
+        "impact": "Complete elimination of open burning with proper waste processing."
+      }
+    ],
+    "ward-03": [
+      {
+        "problem": "Traditional manufacturing and foundries",
+        "policy": "Clean Manufacturing Transition Fund",
+        "description": "Provide subsidized loans and technical support for small industries to upgrade to cleaner technologies.",
+        "impact": "50% reduction in industrial emissions over 3 years with economic sustainability."
+      },
+      {
+        "problem": "Congested narrow lanes with heavy goods vehicles",
+        "policy": "Heritage Zone Traffic Management",
+        "description": "Restrict heavy vehicles, implement pedestrian zones, and use electric rickshaws for local transport.",
+        "impact": "60% reduction in vehicular pollution in heritage areas."
+      },
+      {
+        "problem": "High waste generation with inadequate disposal",
+        "policy": "Decentralized Waste Processing",
+        "description": "Establish micro-composting centers and material recovery units within the ward.",
+        "impact": "80% reduction in waste requiring transport and potential for open burning."
+      }
+    ],
+    "ward-04": [
+      {
+        "problem": "Major wholesale market generating heavy truck traffic",
+        "policy": "Night Logistics Hub",
+        "description": "Shift wholesale market loading/unloading to night hours with mandatory BS-VI vehicles.",
+        "impact": "40% reduction in daytime pollution with efficient night logistics."
+      },
+      {
+        "problem": "Market waste and packaging burning",
+        "policy": "Circular Economy for Markets",
+        "description": "Mandate returnable packaging, establish cardboard recycling, and ban single-use plastics.",
+        "impact": "70% reduction in market waste with economic benefits from recycling."
+      },
+      {
+        "problem": "Road dust from heavy vehicle movement",
+        "policy": "Automated Road Washing System",
+        "description": "Install mechanized road cleaning with regular water spraying on main routes.",
+        "impact": "35% reduction in road dust resuspension."
+      }
+    ],
+    "ward-05": [
+      {
+        "problem": "New construction in residential areas",
+        "policy": "Real-time Construction Monitoring",
+        "description": "Deploy IoT sensors at construction sites linked to automatic compliance alerts.",
+        "impact": "Continuous compliance with immediate violation detection."
+      },
+      {
+        "problem": "Growing vehicle ownership",
+        "policy": "EV Adoption Accelerator",
+        "description": "Provide ward-level EV subsidies and mandate charging stations in new buildings.",
+        "impact": "30% EV adoption within 3 years reducing vehicle emissions."
+      },
+      {
+        "problem": "Occasional waste burning violations",
+        "policy": "Community Waste Champions",
+        "description": "Train and incentivize resident welfare associations to monitor and report waste burning.",
+        "impact": "Near-elimination of waste burning through community ownership."
+      }
+    ],
+    "ward-06": [
+      {
+        "problem": "Rapid urbanization with construction",
+        "policy": "Green Building Mandate",
+        "description": "Require all new buildings to meet GRIHA 4-star rating with enhanced dust control.",
+        "impact": "50% reduction in construction-related emissions with better building efficiency."
+      },
+      {
+        "problem": "Nearby industrial area influence",
+        "policy": "Industrial Buffer Green Belt",
+        "description": "Create dense tree plantation buffer between industrial and residential areas.",
+        "impact": "20-30% reduction in pollutant transfer to residential areas."
+      },
+      {
+        "problem": "Construction debris burning",
+        "policy": "C&D Waste Recycling Mandate",
+        "description": "Establish construction debris recycling plant with mandatory debris collection.",
+        "impact": "Zero construction debris burning with recycled material market."
+      }
+    ],
+    "ward-07": [
+      {
+        "problem": "Major road intersections causing congestion",
+        "policy": "Smart Traffic Signals",
+        "description": "Deploy AI-powered adaptive traffic signals to optimize flow and reduce idling.",
+        "impact": "25% reduction in intersection pollution with improved traffic flow."
+      },
+      {
+        "problem": "Commercial complex vehicle emissions",
+        "policy": "Emission-Free Commercial Zones",
+        "description": "Designate commercial areas as emission-free zones with EV-only delivery and transit.",
+        "impact": "60% reduction in commercial area vehicle emissions."
+      },
+      {
+        "problem": "Light manufacturing emissions",
+        "policy": "Clean Industry Certification",
+        "description": "Introduce certification program with benefits for industries meeting emission standards.",
+        "impact": "40% improvement in industrial emission compliance."
+      }
+    ],
+    "ward-08": [
+      {
+        "problem": "Busy commercial market traffic",
+        "policy": "Market Traffic Calming",
+        "description": "Create pedestrian priority zones with limited vehicle access during market hours.",
+        "impact": "50% reduction in market area vehicle emissions."
+      },
+      {
+        "problem": "Market waste disposal challenges",
+        "policy": "Organic Waste to Energy",
+        "description": "Set up biogas plant for organic market waste with energy fed back to market.",
+        "impact": "80% organic waste diverted with clean energy generation."
+      },
+      {
+        "problem": "Building maintenance activities",
+        "policy": "Dust-Free Renovation Standards",
+        "description": "Mandate enclosure and dust suppression for all building maintenance activities.",
+        "impact": "70% reduction in renovation-related dust emissions."
+      }
+    ],
+    "ward-09": {
+      "problem": "Large housing project construction",
+      "policy": "Green Construction Corridor",
+      "description": "Create dedicated green construction zone with centralized dust control and monitoring.",
+      "impact": "45% reduction in construction-related pollution with better coordination."
+    },
+    "ward-10": [
+      {
+        "problem": "Trans-Yamuna traffic connectivity",
+        "policy": "River Bridge Toll with EV Exemption",
+        "description": "Implement congestion tolling on bridges with exemptions for EVs and public transport.",
+        "impact": "30% reduction in bridge traffic with incentivized clean vehicles."
+      },
+      {
+        "problem": "Small-scale industries and workshops",
+        "policy": "Industrial Cluster Modernization",
+        "description": "Consolidate and modernize small industries in designated clean zones with shared infrastructure.",
+        "impact": "60% reduction in scattered industrial emissions."
+      },
+      {
+        "problem": "Inadequate waste collection",
+        "policy": "Door-to-Door Waste Collection Guarantee",
+        "description": "Ensure 100% coverage with GPS-tracked collection and citizen feedback system.",
+        "impact": "Near-elimination of waste burning due to improved collection."
+      }
+    ],
+    "ward-11": [
+      {
+        "problem": "High ozone during afternoon hours",
+        "policy": "Urban Cooling Initiative",
+        "description": "Increase tree cover, install cool roofs, and create urban forests to reduce temperature.",
+        "impact": "15-20% reduction in surface ozone through temperature reduction."
+      },
+      {
+        "problem": "Commercial traffic during peak hours",
+        "policy": "Sustainable Last-Mile Delivery",
+        "description": "Establish micro-distribution centers with cargo bikes and EVs for final delivery.",
+        "impact": "50% reduction in delivery vehicle emissions."
+      },
+      {
+        "problem": "Maintaining good air quality",
+        "policy": "Clean Air Certification",
+        "description": "Create India's first certified 'Clean Air Ward' with sustained quality monitoring.",
+        "impact": "Model for replication with economic and health benefits."
+      }
+    ],
+    "ward-12": [
+      {
+        "problem": "Major industrial zone emissions",
+        "policy": "Industrial Emission Trading System",
+        "description": "Implement cap-and-trade system for industrial emissions with declining caps.",
+        "impact": "40% reduction in industrial emissions over 5 years with economic efficiency."
+      },
+      {
+        "problem": "Industrial and construction waste burning",
+        "policy": "Industrial Waste Exchange",
+        "description": "Create platform for industries to exchange waste as raw materials.",
+        "impact": "60% reduction in industrial waste requiring burning."
+      },
+      {
+        "problem": "Worker settlement fuel usage",
+        "policy": "Clean Cooking Fuel Access",
+        "description": "Ensure 100% LPG access with subsidized connections for worker settlements.",
+        "impact": "90% reduction in domestic solid fuel burning."
+      }
+    ]
+  }
+}
