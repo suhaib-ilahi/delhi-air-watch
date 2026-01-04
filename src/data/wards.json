@@ -1,0 +1,100 @@
+{
+  "wards": [
+    {
+      "id": "ward-01",
+      "name": "Connaught Place",
+      "zone": "Central Delhi",
+      "population": 125000,
+      "area": 8.5,
+      "coordinates": [28.6315, 77.2167]
+    },
+    {
+      "id": "ward-02",
+      "name": "Karol Bagh",
+      "zone": "Central Delhi",
+      "population": 185000,
+      "area": 12.3,
+      "coordinates": [28.6519, 77.1905]
+    },
+    {
+      "id": "ward-03",
+      "name": "Chandni Chowk",
+      "zone": "North Delhi",
+      "population": 165000,
+      "area": 9.8,
+      "coordinates": [28.6507, 77.2334]
+    },
+    {
+      "id": "ward-04",
+      "name": "Sadar Bazaar",
+      "zone": "North Delhi",
+      "population": 145000,
+      "area": 7.2,
+      "coordinates": [28.6623, 77.2089]
+    },
+    {
+      "id": "ward-05",
+      "name": "Dwarka",
+      "zone": "South West Delhi",
+      "population": 220000,
+      "area": 22.5,
+      "coordinates": [28.5921, 77.0460]
+    },
+    {
+      "id": "ward-06",
+      "name": "Rohini",
+      "zone": "North West Delhi",
+      "population": 280000,
+      "area": 28.4,
+      "coordinates": [28.7495, 77.0560]
+    },
+    {
+      "id": "ward-07",
+      "name": "Janakpuri",
+      "zone": "West Delhi",
+      "population": 175000,
+      "area": 15.6,
+      "coordinates": [28.6279, 77.0810]
+    },
+    {
+      "id": "ward-08",
+      "name": "Lajpat Nagar",
+      "zone": "South Delhi",
+      "population": 155000,
+      "area": 11.2,
+      "coordinates": [28.5688, 77.2428]
+    },
+    {
+      "id": "ward-09",
+      "name": "Mayur Vihar",
+      "zone": "East Delhi",
+      "population": 210000,
+      "area": 18.7,
+      "coordinates": [28.5935, 77.2970]
+    },
+    {
+      "id": "ward-10",
+      "name": "Shahdara",
+      "zone": "East Delhi",
+      "population": 195000,
+      "area": 14.3,
+      "coordinates": [28.6741, 77.2868]
+    },
+    {
+      "id": "ward-11",
+      "name": "Saket",
+      "zone": "South Delhi",
+      "population": 135000,
+      "area": 13.8,
+      "coordinates": [28.5244, 77.2067]
+    },
+    {
+      "id": "ward-12",
+      "name": "Okhla Industrial",
+      "zone": "South East Delhi",
+      "population": 95000,
+      "area": 16.4,
+      "coordinates": [28.5304, 77.2711]
+    }
+  ]
+}

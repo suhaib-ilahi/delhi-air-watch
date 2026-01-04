@@ -1,0 +1,119 @@
+{
+  "actions": {
+    "PM2.5": {
+      "personal": [
+        "Wear N95 or FFP2 masks when outdoors, especially during morning and evening hours.",
+        "Keep windows and doors closed during peak pollution hours (6-10 AM, 6-10 PM).",
+        "Use air purifiers with HEPA filters in bedrooms and living areas.",
+        "Avoid outdoor exercise, especially jogging and cycling.",
+        "Stay hydrated and include antioxidant-rich foods in your diet."
+      ],
+      "daily": [
+        "Check AQI levels before planning outdoor activities.",
+        "Use public transport or carpool to reduce vehicle emissions.",
+        "Maintain indoor plants that improve air quality (Snake Plant, Areca Palm).",
+        "Schedule outdoor work for late morning when pollution levels are typically lower.",
+        "Keep emergency medication handy if you have respiratory conditions."
+      ],
+      "community": [
+        "Organize neighborhood tree plantation drives.",
+        "Report illegal burning of waste to local authorities.",
+        "Participate in local pollution monitoring initiatives.",
+        "Advocate for better public transport options in your area.",
+        "Support local initiatives for cleaner cooking fuel adoption."
+      ]
+    },
+    "PM10": {
+      "personal": [
+        "Use dust masks when in dusty environments or construction zones.",
+        "Take regular breaks in clean, indoor environments.",
+        "Clean home surfaces frequently to reduce dust accumulation.",
+        "Use wet mopping instead of dry sweeping.",
+        "Install door mats to prevent dust from entering homes."
+      ],
+      "daily": [
+        "Avoid areas with active construction during peak hours.",
+        "Keep vehicle windows closed while driving through dusty areas.",
+        "Plan routes avoiding construction zones when possible.",
+        "Water your garden in the evening to settle dust.",
+        "Maintain good ventilation while keeping major dust sources out."
+      ],
+      "community": [
+        "Report construction sites not following dust control measures.",
+        "Advocate for regular water sprinkling on roads.",
+        "Support paving of unpaved roads in your neighborhood.",
+        "Participate in green belt development initiatives.",
+        "Push for strict enforcement of construction dust guidelines."
+      ]
+    },
+    "NO2": {
+      "personal": [
+        "Limit time spent near heavy traffic areas.",
+        "Choose walking routes away from main roads.",
+        "Use air conditioning in recirculation mode while in traffic.",
+        "Consider cycling during off-peak hours on less busy routes.",
+        "Work from home when pollution levels are very high."
+      ],
+      "daily": [
+        "Shift to electric or hybrid vehicles if possible.",
+        "Combine errands to reduce the number of trips.",
+        "Use metro and bus services for daily commute.",
+        "Avoid idling vehicles in parking areas.",
+        "Schedule vehicle maintenance regularly for optimal emissions."
+      ],
+      "community": [
+        "Support expansion of metro and bus networks.",
+        "Advocate for pedestrian-friendly zones in commercial areas.",
+        "Participate in car-free day initiatives.",
+        "Push for more electric vehicle charging stations.",
+        "Support congestion pricing policies in high-traffic zones."
+      ]
+    },
+    "SO2": {
+      "personal": [
+        "Limit outdoor activities near industrial areas.",
+        "Be aware of wind direction from industrial zones.",
+        "Keep emergency numbers for pollution-related health issues.",
+        "Maintain good respiratory health through regular check-ups.",
+        "Use masks with activated carbon filters in affected areas."
+      ],
+      "daily": [
+        "Monitor local industrial emissions reports.",
+        "Choose residential areas away from industrial zones.",
+        "Support businesses using clean energy sources.",
+        "Report unusual industrial emissions to pollution control board.",
+        "Stay informed about local industrial activities."
+      ],
+      "community": [
+        "Support stricter emissions standards for industries.",
+        "Participate in public hearings on industrial permits.",
+        "Advocate for green buffer zones around industrial areas.",
+        "Monitor and report violations of emission standards.",
+        "Support transition to cleaner industrial technologies."
+      ]
+    },
+    "O3": {
+      "personal": [
+        "Avoid outdoor activities during afternoon hours (12-4 PM).",
+        "Stay in air-conditioned spaces during high ozone periods.",
+        "Be aware that ozone affects respiratory health differently than particles.",
+        "Recognize symptoms of ozone exposure: chest tightness, coughing.",
+        "Children and elderly should be especially cautious during high ozone days."
+      ],
+      "daily": [
+        "Plan outdoor exercise for early morning or evening.",
+        "Check ozone forecasts as part of daily planning.",
+        "Reduce driving during hot sunny days to limit ozone precursors.",
+        "Use gas-powered equipment early morning rather than afternoon.",
+        "Refuel vehicles in the evening to reduce ozone formation."
+      ],
+      "community": [
+        "Support urban tree planting to reduce urban heat.",
+        "Advocate for reduced use of volatile organic compounds.",
+        "Support public awareness campaigns about ozone pollution.",
+        "Push for stricter vehicle emission testing.",
+        "Participate in initiatives reducing precursor emissions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sources": {
+    "ward-01": [
+      { "source": "Vehicular Traffic", "contribution": 45, "description": "Heavy commercial and private vehicle congestion in central business district during peak hours." },
+      { "source": "Construction Dust", "contribution": 22, "description": "Ongoing metro and commercial building construction projects generating particulate matter." },
+      { "source": "Industrial Emissions", "contribution": 8, "description": "Limited industrial activity, primarily from nearby commercial establishments." },
+      { "source": "Waste Burning", "contribution": 12, "description": "Occasional waste burning in surrounding residential areas." },
+      { "source": "Domestic Fuel Usage", "contribution": 13, "description": "Residential cooking and heating fuel consumption in adjoining areas." }
+    ],
+    "ward-02": [
+      { "source": "Vehicular Traffic", "contribution": 38, "description": "Dense traffic due to major commercial hub and transit connections." },
+      { "source": "Construction Dust", "contribution": 28, "description": "Multiple redevelopment projects and road widening activities." },
+      { "source": "Industrial Emissions", "contribution": 12, "description": "Small-scale manufacturing units in mixed-use zones." },
+      { "source": "Waste Burning", "contribution": 14, "description": "Open burning of garbage in unauthorized dump sites." },
+      { "source": "Domestic Fuel Usage", "contribution": 8, "description": "Traditional cooking methods in older residential pockets." }
+    ],
+    "ward-03": [
+      { "source": "Vehicular Traffic", "contribution": 32, "description": "Congested narrow lanes with heavy goods vehicles and autos." },
+      { "source": "Construction Dust", "contribution": 18, "description": "Heritage area renovations and infrastructure improvements." },
+      { "source": "Industrial Emissions", "contribution": 25, "description": "Traditional manufacturing, printing, and small foundries." },
+      { "source": "Waste Burning", "contribution": 18, "description": "High waste generation with inadequate disposal systems." },
+      { "source": "Domestic Fuel Usage", "contribution": 7, "description": "Dense population with mixed fuel usage patterns." }
+    ],
+    "ward-04": [
+      { "source": "Vehicular Traffic", "contribution": 42, "description": "Major wholesale market generating heavy truck traffic." },
+      { "source": "Construction Dust", "contribution": 20, "description": "Road repairs and building renovations in commercial areas." },
+      { "source": "Industrial Emissions", "contribution": 15, "description": "Warehousing and distribution center operations." },
+      { "source": "Waste Burning", "contribution": 16, "description": "Market waste and packaging material burning." },
+      { "source": "Domestic Fuel Usage", "contribution": 7, "description": "Residential areas using LPG and biomass fuels." }
+    ],
+    "ward-05": [
+      { "source": "Vehicular Traffic", "contribution": 52, "description": "Metro connectivity has reduced private vehicle usage significantly." },
+      { "source": "Construction Dust", "contribution": 25, "description": "New residential complexes under development." },
+      { "source": "Industrial Emissions", "contribution": 5, "description": "Minimal industrial presence in this residential zone." },
+      { "source": "Waste Burning", "contribution": 8, "description": "Well-managed waste disposal with occasional violations." },
+      { "source": "Domestic Fuel Usage", "contribution": 10, "description": "Modern apartments predominantly using clean fuels." }
+    ],
+    "ward-06": [
+      { "source": "Vehicular Traffic", "contribution": 40, "description": "Growing residential area with increasing vehicle ownership." },
+      { "source": "Construction Dust", "contribution": 30, "description": "Rapid urbanization with multiple construction sites." },
+      { "source": "Industrial Emissions", "contribution": 10, "description": "Nearby industrial areas contributing to ambient pollution." },
+      { "source": "Waste Burning", "contribution": 12, "description": "Construction debris and household waste burning." },
+      { "source": "Domestic Fuel Usage", "contribution": 8, "description": "Mixed housing with varying fuel preferences." }
+    ],
+    "ward-07": [
+      { "source": "Vehicular Traffic", "contribution": 48, "description": "Major road intersections causing traffic congestion." },
+      { "source": "Construction Dust", "contribution": 22, "description": "Commercial complex expansions and road improvements." },
+      { "source": "Industrial Emissions", "contribution": 12, "description": "Light manufacturing and service industries." },
+      { "source": "Waste Burning", "contribution": 10, "description": "Controlled waste management with some violations." },
+      { "source": "Domestic Fuel Usage", "contribution": 8, "description": "Predominantly LPG usage in residential areas." }
+    ],
+    "ward-08": [
+      { "source": "Vehicular Traffic", "contribution": 50, "description": "Busy commercial market generating significant traffic." },
+      { "source": "Construction Dust", "contribution": 18, "description": "Building maintenance and renovation activities." },
+      { "source": "Industrial Emissions", "contribution": 8, "description": "Limited to commercial establishments." },
+      { "source": "Waste Burning", "contribution": 15, "description": "Market waste disposal challenges." },
+      { "source": "Domestic Fuel Usage", "contribution": 9, "description": "Urban residential with clean fuel adoption." }
+    ],
+    "ward-09": [
+      { "source": "Vehicular Traffic", "contribution": 35, "description": "Residential area with moderate traffic levels." },
+      { "source": "Construction Dust", "contribution": 32, "description": "Large-scale housing projects in development phase." },
+      { "source": "Industrial Emissions", "contribution": 15, "description": "Industrial corridor influence from neighboring areas." },
+      { "source": "Waste Burning", "contribution": 12, "description": "Construction waste and green waste burning." },
+      { "source": "Domestic Fuel Usage", "contribution": 6, "description": "Modern residential developments with gas connections." }
+    ],
+    "ward-10": [
+      { "source": "Vehicular Traffic", "contribution": 38, "description": "Trans-Yamuna connectivity creating traffic hotspots." },
+      { "source": "Construction Dust", "contribution": 25, "description": "Infrastructure development and building construction." },
+      { "source": "Industrial Emissions", "contribution": 22, "description": "Small-scale industries and workshops." },
+      { "source": "Waste Burning", "contribution": 10, "description": "Inadequate waste collection in some areas." },
+      { "source": "Domestic Fuel Usage", "contribution": 5, "description": "Mixed fuel usage with increasing LPG adoption." }
+    ],
+    "ward-11": [
+      { "source": "Vehicular Traffic", "contribution": 55, "description": "Commercial hub with organized traffic management." },
+      { "source": "Construction Dust", "contribution": 15, "description": "Minimal construction activity in established area." },
+      { "source": "Industrial Emissions", "contribution": 5, "description": "No significant industrial sources." },
+      { "source": "Waste Burning", "contribution": 10, "description": "Efficient municipal waste management." },
+      { "source": "Domestic Fuel Usage", "contribution": 15, "description": "High-income area with clean fuel usage." }
+    ],
+    "ward-12": [
+      { "source": "Vehicular Traffic", "contribution": 25, "description": "Industrial vehicle traffic and goods movement." },
+      { "source": "Construction Dust", "contribution": 15, "description": "Industrial facility expansions and maintenance." },
+      { "source": "Industrial Emissions", "contribution": 42, "description": "Major industrial zone with manufacturing units, power generation, and chemical processing." },
+      { "source": "Waste Burning", "contribution": 12, "description": "Industrial and construction waste burning." },
+      { "source": "Domestic Fuel Usage", "contribution": 6, "description": "Worker settlements with mixed fuel sources." }
+    ]
+  }
+}

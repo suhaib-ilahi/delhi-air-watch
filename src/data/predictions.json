@@ -1,0 +1,160 @@
+{
+  "predictions": {
+    "ward-01": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 182, "lower": 168, "upper": 198 },
+        { "date": "2024-01-17", "aqi": 175, "lower": 158, "upper": 192 },
+        { "date": "2024-01-18", "aqi": 168, "lower": 152, "upper": 185 },
+        { "date": "2024-01-19", "aqi": 172, "lower": 155, "upper": 188 },
+        { "date": "2024-01-20", "aqi": 178, "lower": 162, "upper": 195 },
+        { "date": "2024-01-21", "aqi": 165, "lower": 148, "upper": 182 },
+        { "date": "2024-01-22", "aqi": 158, "lower": 142, "upper": 175 }
+      ],
+      "confidence": 0.82,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-02": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 242, "lower": 225, "upper": 262 },
+        { "date": "2024-01-17", "aqi": 235, "lower": 215, "upper": 255 },
+        { "date": "2024-01-18", "aqi": 228, "lower": 208, "upper": 248 },
+        { "date": "2024-01-19", "aqi": 232, "lower": 212, "upper": 252 },
+        { "date": "2024-01-20", "aqi": 238, "lower": 218, "upper": 258 },
+        { "date": "2024-01-21", "aqi": 225, "lower": 205, "upper": 245 },
+        { "date": "2024-01-22", "aqi": 218, "lower": 198, "upper": 238 }
+      ],
+      "confidence": 0.78,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-03": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 308, "lower": 288, "upper": 332 },
+        { "date": "2024-01-17", "aqi": 298, "lower": 275, "upper": 322 },
+        { "date": "2024-01-18", "aqi": 285, "lower": 262, "upper": 308 },
+        { "date": "2024-01-19", "aqi": 292, "lower": 268, "upper": 315 },
+        { "date": "2024-01-20", "aqi": 302, "lower": 278, "upper": 328 },
+        { "date": "2024-01-21", "aqi": 288, "lower": 265, "upper": 312 },
+        { "date": "2024-01-22", "aqi": 275, "lower": 252, "upper": 298 }
+      ],
+      "confidence": 0.75,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-04": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 195, "lower": 178, "upper": 215 },
+        { "date": "2024-01-17", "aqi": 188, "lower": 168, "upper": 208 },
+        { "date": "2024-01-18", "aqi": 182, "lower": 162, "upper": 202 },
+        { "date": "2024-01-19", "aqi": 185, "lower": 165, "upper": 205 },
+        { "date": "2024-01-20", "aqi": 192, "lower": 172, "upper": 212 },
+        { "date": "2024-01-21", "aqi": 178, "lower": 158, "upper": 198 },
+        { "date": "2024-01-22", "aqi": 172, "lower": 152, "upper": 192 }
+      ],
+      "confidence": 0.80,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-05": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 92, "lower": 82, "upper": 105 },
+        { "date": "2024-01-17", "aqi": 88, "lower": 78, "upper": 98 },
+        { "date": "2024-01-18", "aqi": 85, "lower": 75, "upper": 95 },
+        { "date": "2024-01-19", "aqi": 88, "lower": 78, "upper": 98 },
+        { "date": "2024-01-20", "aqi": 92, "lower": 82, "upper": 102 },
+        { "date": "2024-01-21", "aqi": 85, "lower": 75, "upper": 95 },
+        { "date": "2024-01-22", "aqi": 82, "lower": 72, "upper": 92 }
+      ],
+      "confidence": 0.85,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-06": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 138, "lower": 125, "upper": 155 },
+        { "date": "2024-01-17", "aqi": 132, "lower": 118, "upper": 148 },
+        { "date": "2024-01-18", "aqi": 128, "lower": 115, "upper": 142 },
+        { "date": "2024-01-19", "aqi": 132, "lower": 118, "upper": 148 },
+        { "date": "2024-01-20", "aqi": 138, "lower": 125, "upper": 152 },
+        { "date": "2024-01-21", "aqi": 128, "lower": 115, "upper": 142 },
+        { "date": "2024-01-22", "aqi": 122, "lower": 108, "upper": 138 }
+      ],
+      "confidence": 0.81,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-07": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 165, "lower": 148, "upper": 182 },
+        { "date": "2024-01-17", "aqi": 158, "lower": 142, "upper": 175 },
+        { "date": "2024-01-18", "aqi": 152, "lower": 135, "upper": 168 },
+        { "date": "2024-01-19", "aqi": 158, "lower": 142, "upper": 175 },
+        { "date": "2024-01-20", "aqi": 165, "lower": 148, "upper": 182 },
+        { "date": "2024-01-21", "aqi": 155, "lower": 138, "upper": 172 },
+        { "date": "2024-01-22", "aqi": 148, "lower": 132, "upper": 165 }
+      ],
+      "confidence": 0.79,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-08": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 122, "lower": 108, "upper": 138 },
+        { "date": "2024-01-17", "aqi": 118, "lower": 105, "upper": 132 },
+        { "date": "2024-01-18", "aqi": 112, "lower": 98, "upper": 128 },
+        { "date": "2024-01-19", "aqi": 115, "lower": 102, "upper": 130 },
+        { "date": "2024-01-20", "aqi": 120, "lower": 108, "upper": 135 },
+        { "date": "2024-01-21", "aqi": 112, "lower": 98, "upper": 128 },
+        { "date": "2024-01-22", "aqi": 108, "lower": 95, "upper": 122 }
+      ],
+      "confidence": 0.83,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-09": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 208, "lower": 188, "upper": 228 },
+        { "date": "2024-01-17", "aqi": 198, "lower": 178, "upper": 218 },
+        { "date": "2024-01-18", "aqi": 192, "lower": 172, "upper": 212 },
+        { "date": "2024-01-19", "aqi": 198, "lower": 178, "upper": 218 },
+        { "date": "2024-01-20", "aqi": 205, "lower": 185, "upper": 225 },
+        { "date": "2024-01-21", "aqi": 195, "lower": 175, "upper": 215 },
+        { "date": "2024-01-22", "aqi": 188, "lower": 168, "upper": 208 }
+      ],
+      "confidence": 0.77,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-10": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 272, "lower": 252, "upper": 295 },
+        { "date": "2024-01-17", "aqi": 262, "lower": 242, "upper": 285 },
+        { "date": "2024-01-18", "aqi": 255, "lower": 235, "upper": 278 },
+        { "date": "2024-01-19", "aqi": 262, "lower": 242, "upper": 285 },
+        { "date": "2024-01-20", "aqi": 268, "lower": 248, "upper": 292 },
+        { "date": "2024-01-21", "aqi": 258, "lower": 238, "upper": 282 },
+        { "date": "2024-01-22", "aqi": 248, "lower": 228, "upper": 272 }
+      ],
+      "confidence": 0.74,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-11": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 75, "lower": 65, "upper": 88 },
+        { "date": "2024-01-17", "aqi": 72, "lower": 62, "upper": 82 },
+        { "date": "2024-01-18", "aqi": 68, "lower": 58, "upper": 78 },
+        { "date": "2024-01-19", "aqi": 72, "lower": 62, "upper": 82 },
+        { "date": "2024-01-20", "aqi": 75, "lower": 65, "upper": 85 },
+        { "date": "2024-01-21", "aqi": 70, "lower": 60, "upper": 80 },
+        { "date": "2024-01-22", "aqi": 65, "lower": 55, "upper": 75 }
+      ],
+      "confidence": 0.88,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    },
+    "ward-12": {
+      "forecast": [
+        { "date": "2024-01-16", "aqi": 295, "lower": 275, "upper": 318 },
+        { "date": "2024-01-17", "aqi": 285, "lower": 265, "upper": 308 },
+        { "date": "2024-01-18", "aqi": 278, "lower": 258, "upper": 298 },
+        { "date": "2024-01-19", "aqi": 285, "lower": 265, "upper": 308 },
+        { "date": "2024-01-20", "aqi": 292, "lower": 272, "upper": 315 },
+        { "date": "2024-01-21", "aqi": 282, "lower": 262, "upper": 305 },
+        { "date": "2024-01-22", "aqi": 272, "lower": 252, "upper": 295 }
+      ],
+      "confidence": 0.73,
+      "methodology": "ARIMA time-series model with meteorological inputs including wind speed, temperature, and humidity forecasts."
+    }
+  }
+}

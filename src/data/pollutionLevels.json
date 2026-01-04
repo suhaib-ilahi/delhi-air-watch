@@ -1,0 +1,160 @@
+{
+  "levels": {
+    "ward-01": {
+      "aqi": 185,
+      "category": "poor",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 95, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 165, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 62, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 28, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 45, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-02": {
+      "aqi": 245,
+      "category": "very-poor",
+      "dominantPollutant": "PM10",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 125, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 220, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 78, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 35, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 52, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-03": {
+      "aqi": 312,
+      "category": "severe",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 185, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 295, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 92, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 45, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 38, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-04": {
+      "aqi": 198,
+      "category": "poor",
+      "dominantPollutant": "PM10",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 102, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 178, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 68, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 32, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 48, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-05": {
+      "aqi": 95,
+      "category": "moderate",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 52, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 85, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 42, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 18, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 55, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-06": {
+      "aqi": 142,
+      "category": "poor",
+      "dominantPollutant": "PM10",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 78, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 135, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 55, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 22, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 62, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-07": {
+      "aqi": 168,
+      "category": "poor",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 88, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 152, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 58, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 25, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 58, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-08": {
+      "aqi": 125,
+      "category": "poor",
+      "dominantPollutant": "PM10",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 68, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 118, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 48, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 20, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 65, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-09": {
+      "aqi": 210,
+      "category": "very-poor",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 115, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 195, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 72, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 38, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 42, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-10": {
+      "aqi": 275,
+      "category": "very-poor",
+      "dominantPollutant": "PM10",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 145, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 255, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 85, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 42, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 35, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-11": {
+      "aqi": 78,
+      "category": "moderate",
+      "dominantPollutant": "O3",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 42, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 72, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 35, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 15, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 78, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    },
+    "ward-12": {
+      "aqi": 298,
+      "category": "very-poor",
+      "dominantPollutant": "PM2.5",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "pollutants": {
+        "pm25": { "value": 168, "unit": "µg/m³", "safeLimit": 60 },
+        "pm10": { "value": 275, "unit": "µg/m³", "safeLimit": 100 },
+        "no2": { "value": 95, "unit": "µg/m³", "safeLimit": 80 },
+        "so2": { "value": 55, "unit": "µg/m³", "safeLimit": 80 },
+        "o3": { "value": 32, "unit": "µg/m³", "safeLimit": 100 }
+      }
+    }
+  }
+}
