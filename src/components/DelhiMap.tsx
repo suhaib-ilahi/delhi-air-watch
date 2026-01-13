@@ -1,10 +1,15 @@
-import { useMemo, useEffect } from 'react';
+import { useMemo, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
+import { useNavigate } from 'react-router-dom';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { getWards, getPollutionLevel, getPollutionSources } from '@/lib/dataService';
-import { WardPopupCard } from '@/components/WardPopupCard';
 import { getAQICategory } from '@/types/pollution';
+import { AQIBadge } from '@/components/AQIBadge';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { MapPin, Wind, ArrowRight, Factory, Car } from 'lucide-react';
+import type { Ward, PollutionLevel, PollutionSource } from '@/types/pollution';
 
 // Fix Leaflet default marker icon issue
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -40,8 +45,91 @@ const getMarkerRadius = (aqi: number): number => {
   return 34;
 };
 
+// Simple popup content component without hooks
+const PopupContent = ({ 
+  ward, 
+  pollution, 
+  topSources,
+  onViewReport 
+}: { 
+  ward: Ward; 
+  pollution: PollutionLevel; 
+  topSources: PollutionSource[];
+  onViewReport: (wardId: string) => void;
+}) => {
+  return (
+    <div className="w-72 overflow-hidden">
+      {/* Header */}
+      <div className="bg-gradient-to-r from-primary to-primary/80 p-3 text-white rounded-t-lg -m-3 mb-3">
+        <div className="flex items-start justify-between">
+          <div>
+            <div className="flex items-center gap-2 text-white/80 text-xs mb-1">
+              <MapPin className="h-3 w-3" />
+              <span>{ward.zone}</span>
+            </div>
+            <h3 className="font-bold text-base">{ward.name}</h3>
+          </div>
+          <AQIBadge category={pollution.category} aqi={pollution.aqi} size="sm" />
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="space-y-3 pt-2">
+        {/* Dominant Pollutant */}
+        <div className="flex items-center gap-2 p-2 bg-muted/50 rounded-lg">
+          <div className="p-1.5 bg-primary/10 rounded-md">
+            <Wind className="h-4 w-4 text-primary" />
+          </div>
+          <div>
+            <p className="text-xs text-muted-foreground">Dominant Pollutant</p>
+            <p className="font-semibold text-sm">{pollution.dominantPollutant}</p>
+          </div>
+        </div>
+
+        {/* Top Sources */}
+        <div>
+          <h4 className="text-xs font-medium text-muted-foreground mb-1.5">Top Pollution Sources</h4>
+          <div className="space-y-1.5">
+            {topSources.slice(0, 2).map((source, index) => (
+              <div
+                key={source.source}
+                className="flex items-center justify-between p-1.5 bg-secondary/50 rounded-md"
+              >
+                <div className="flex items-center gap-1.5">
+                  {index === 0 ? (
+                    <Car className="h-3.5 w-3.5 text-muted-foreground" />
+                  ) : (
+                    <Factory className="h-3.5 w-3.5 text-muted-foreground" />
+                  )}
+                  <span className="text-xs">{source.source}</span>
+                </div>
+                <span className="text-xs font-semibold text-primary">{source.contribution}%</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA Button */}
+        <Button 
+          onClick={() => onViewReport(ward.id)} 
+          className="w-full group" 
+          size="sm"
+        >
+          View Full Ward Report
+          <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
+        </Button>
+      </div>
+    </div>
+  );
+};
+
 export const DelhiMap = () => {
+  const navigate = useNavigate();
   const wards = useMemo(() => getWards(), []);
+
+  const handleViewReport = (wardId: string) => {
+    navigate(`/ward/${wardId}`);
+  };
 
   return (
     <div className="relative w-full h-full rounded-xl overflow-hidden shadow-lg border border-border">
@@ -82,10 +170,11 @@ export const DelhiMap = () => {
               }}
             >
               <Popup className="ward-popup" closeButton={false}>
-                <WardPopupCard
+                <PopupContent
                   ward={ward}
                   pollution={pollution}
                   topSources={sortedSources}
+                  onViewReport={handleViewReport}
                 />
               </Popup>
             </CircleMarker>
