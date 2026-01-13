@@ -1,13 +1,23 @@
-import { useMemo } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
-import { LatLngExpression } from 'leaflet';
+import { useMemo, useEffect } from 'react';
+import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
+import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { getWards, getPollutionLevel, getPollutionSources } from '@/lib/dataService';
 import { WardPopupCard } from '@/components/WardPopupCard';
-import { AQI_COLORS, getAQICategory } from '@/types/pollution';
+import { getAQICategory } from '@/types/pollution';
+
+// Fix Leaflet default marker icon issue
+delete (L.Icon.Default.prototype as any)._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
+  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+});
 
 // Delhi center coordinates
-const DELHI_CENTER: LatLngExpression = [28.6139, 77.2090];
+type LatLngTuple = [number, number];
+
+const DELHI_CENTER: LatLngTuple = [28.6139, 77.2090];
 const DELHI_ZOOM = 11;
 
 const getMarkerColor = (aqi: number): string => {
